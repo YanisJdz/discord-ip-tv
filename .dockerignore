@@ -1,0 +1,29 @@
+# Node modules (will be installed inside container)
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Git
+.git
+.gitignore
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+*.swp
+
+# Local output / build cache
+dist
+build
+coverage
+tmp
+temp
+.cache
+
+# Docker-specific
+Dockerfile
+docker-compose.yml
