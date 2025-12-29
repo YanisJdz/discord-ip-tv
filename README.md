@@ -34,8 +34,8 @@ By using this software, you acknowledge that you do so at your own risk.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/discord-iptv.git
-cd discord-iptv
+git clone https://github.com/yanisjdz/discord-ip-tv.git
+cd discord-ip-tv
 ```
 
 ### 2. Configure environment variables
