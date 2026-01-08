@@ -310,7 +310,7 @@ process.on("message", async (msg) => {
       process.send?.({ type: "log", text: "switch/start: prepareStream()" });
       const { command, output } = prepareStream(
         fifoPath,
-        { height: 720, streamPreview: false },
+        { height: 720, streamPreview: false, frameRate: 30 },
         thisAbort.signal
       );
       process.send?.({ type: "log", text: "switch/start: prepareStream() ok" });
